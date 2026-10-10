@@ -433,23 +433,27 @@ HTML_PAGE = """<!DOCTYPE html>
         }
 
         // Render explanation
-        const exp = data.explanation;
+        const exp = data.explanation || {};
         let expHtml = '';
-        if (exp.summary) expHtml += `<p style="margin-bottom:8px;"><strong>Summary:</strong> ${exp.summary}</p>`;
-        if (exp.red_flags && exp.red_flags.length) {
-          expHtml += `<p style="margin-top:8px; font-weight:700; color:var(--red);">Key Red Flags:</p><ul style="padding-left:18px; margin-top:4px;">`;
-          exp.red_flags.forEach(rf => { expHtml += `<li>${rf}</li>`; });
+        if (exp.summary) {
+          expHtml += `<p style="margin-bottom:10px; color:#f1f5f9;"><strong>Executive Verdict:</strong> ${exp.summary}</p>`;
+        }
+        if (exp.recommended_actions && exp.recommended_actions.length) {
+          expHtml += `<p style="margin-top:10px; font-weight:700; color:var(--green);">Recommended Safety Directives:</p><ul style="padding-left:18px; margin-top:4px;">`;
+          exp.recommended_actions.forEach(a => { expHtml += `<li style="margin-bottom:4px;">${a}</li>`; });
           expHtml += `</ul>`;
         }
-        if (exp.recommended_action) {
-          expHtml += `<p style="margin-top:10px; font-weight:700; color:var(--green);">Safety Guidance:</p><p style="margin-top:2px;">${exp.recommended_action}</p>`;
+        if (exp.incident_response_guide && exp.incident_response_guide.emergency_steps) {
+          expHtml += `<p style="margin-top:10px; font-weight:700; color:var(--cyan);">Emergency Response Protocol:</p><ul style="padding-left:18px; margin-top:4px;">`;
+          exp.incident_response_guide.emergency_steps.slice(0, 2).forEach(s => { expHtml += `<li style="margin-bottom:2px;">${s}</li>`; });
+          expHtml += `</ul>`;
         }
         document.getElementById('explanationText').innerHTML = expHtml || 'Analysis complete.';
 
       } catch (err) {
         btn.innerHTML = "<span>⚡ Analyze with ScamShield</span>";
         btn.disabled = false;
-        alert("Failed to connect to detection API: " + err.message);
+        alert("Analysis error: " + err.message);
       }
     }
   </script>
@@ -507,30 +511,41 @@ class handler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps(err).encode('utf-8'))
                 return
             
-            # Run ScamShield analysis pipeline
-            extracted = _extractor.extract_signals(text=message, sender=sender, url=url)
-            signals = extracted.get("signals", [])
+            # If sender provided, prepend to message text for context
+            full_text = f"Sender: {sender}\n{message}" if sender else message
+            extracted = _extractor.extract_signals(full_text, user_url=url if url else None)
+            signals = extracted.get("detected_signals", [])
+            evidence = extracted.get("evidence_snippets", {})
+            missing_evidence = extracted.get("missing_evidence", [])
             scoring = calculate_risk_score(signals)
             xai = generate_explanation(
-                signals=signals,
-                risk_score=scoring["final_score"],
                 risk_level=scoring["risk_level"],
-                url_details=extracted.get("url_details", [])
+                risk_score=scoring["risk_score"],
+                detected_signals=signals,
+                evidence_snippets=evidence,
+                missing_evidence=missing_evidence
             )
             
+            from src.explanations import SIGNAL_HUMAN_NAMES
+            
+            breakdown_dict = {
+                item["component"]: item.get("points", 15.0)
+                for item in scoring.get("score_breakdown", [])
+                if isinstance(item, dict) and "component" in item
+            }
+
             result = {
                 "success": True,
                 "input_length": len(message),
-                "risk_score": scoring["final_score"],
+                "risk_score": scoring["risk_score"],
                 "risk_level": scoring["risk_level"],
                 "confidence": scoring["confidence"],
                 "signals_detected": [
                     {
-                        "signal_id": s.get("id"),
-                        "name": s.get("name"),
-                        "category": s.get("category"),
-                        "evidence": s.get("evidence"),
-                        "weight": s.get("weight")
+                        "signal_id": s,
+                        "name": SIGNAL_HUMAN_NAMES.get(s, s),
+                        "evidence": evidence.get(s, "Detected pattern in message body"),
+                        "weight": breakdown_dict.get(s, 15.0)
                     }
                     for s in signals
                 ],
@@ -542,6 +557,8 @@ class handler(BaseHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(json.dumps(result, indent=2).encode('utf-8'))
+
+
             
         except Exception as e:
             self.send_response(500)
