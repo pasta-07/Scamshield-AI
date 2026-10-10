@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# SQLite & Data
+*.db-journal
+*.db-wal
+data/test_*.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environments & Keys
+.env
+.env.local
+
+# Vercel & Node
+.vercel/
+node_modules/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+.system_generated/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+

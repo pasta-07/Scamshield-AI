@@ -1,0 +1,140 @@
+[
+  {
+    "id": "PAT-001",
+    "name": "Bank KYC Suspension & Phishing Link",
+    "category": "Banking Impersonation",
+    "severity": "CRITICAL",
+    "description": "Scammers send urgent SMS messages claiming the victim's bank account or net banking will be deactivated within 24 hours unless KYC documents are updated on a spoofed link.",
+    "signals_used": [
+      "IMPERSONATION_BANK_GOVT",
+      "SUSPENSION_LEGAL_THREAT",
+      "SUSPICIOUS_URL",
+      "URGENCY_TIME_PRESSURE"
+    ],
+    "risk_contribution": "High Base Weight (85-95) with Impersonation + Link synergy.",
+    "tactics": "Urgency, Authority Impersonation, Disposable Domains (.xyz, .top, .site).",
+    "limitations": "May miss completely brand-new spoofed domain formats if no URL heuristics match.",
+    "example_synthetic": "Dear SBI User, your YONO account is suspended today due to KYC incomplete. Click http://sbi-kyc-update.xyz to verify immediately.",
+    "safe_action": "Never update KYC via SMS links. Visit your home bank branch or use the official verified banking mobile app."
+  },
+  {
+    "id": "PAT-002",
+    "name": "UPI 'Enter PIN to Receive Money' Cashback Fraud",
+    "category": "UPI & Digital Wallet Fraud",
+    "severity": "CRITICAL",
+    "description": "Perpetrators trick victims into entering their UPI PIN on Google Pay/PhonePe/Paytm claiming it is required to receive a cashback, reward, or marketplace payment.",
+    "signals_used": [
+      "PAYMENT_APPROVAL_PRESSURE",
+      "CREDENTIAL_OTP_HARVEST",
+      "LOTTERY_PRIZE_OFFER"
+    ],
+    "risk_contribution": "High Base Weight (80-92) with Payment Coercion synergy.",
+    "tactics": "Reversal of UPI protocol fundamentals, psychological lure of instant money.",
+    "limitations": "Voice call negotiations accompanying the request may happen out-of-band.",
+    "example_synthetic": "Congratulations! You have received ₹5,000 PhonePe cashback. Click here and enter your UPI PIN to credit funds to your account.",
+    "safe_action": "Remember: UPI PIN is ONLY required to SEND money, never to RECEIVE money."
+  },
+  {
+    "id": "PAT-003",
+    "name": "Fake Electricity Disconnection Panic",
+    "category": "Utility Coercion",
+    "severity": "HIGH",
+    "description": "Victims receive threatening SMS claiming their power supply will be cut off tonight at 9:30 PM due to unpaid electricity bill, instructing them to call a fraudulent mobile number.",
+    "signals_used": [
+      "ELECTRICITY_UTILITY_THREAT",
+      "URGENCY_TIME_PRESSURE",
+      "IMPERSONATION_BANK_GOVT"
+    ],
+    "risk_contribution": "Medium-to-High Base Weight (70-85).",
+    "tactics": "Time-sensitive fear of darkness/disconnection, informal mobile phone contact.",
+    "limitations": "Genuine power cut notices may occasionally share urgent maintenance alerts.",
+    "example_synthetic": "Dear Consumer, your electricity power will be disconnected tonight at 9:30 PM from power office. Contact Electricity Officer at 9876543210 immediately.",
+    "safe_action": "Check bill status solely on the official State Electricity DISCOM website or mobile app."
+  },
+  {
+    "id": "PAT-004",
+    "name": "Remote Access App Support Hijack",
+    "category": "Tech & Customer Support Fraud",
+    "severity": "CRITICAL",
+    "description": "Fraudsters posing as bank or wallet support convince victims to install AnyDesk, TeamViewer, or QuickSupport to 'assist' with a failed transaction, gaining full device screen access.",
+    "signals_used": [
+      "REMOTE_ACCESS_REQUEST",
+      "IMPERSONATION_BANK_GOVT",
+      "CHANNEL_HOPPING"
+    ],
+    "risk_contribution": "Critical Base Weight (88-98) with Remote Control synergy.",
+    "tactics": "Pretending technical assistance, screen mirroring for OTP interception.",
+    "limitations": "Legitimate enterprise IT support tools share similar naming conventions.",
+    "example_synthetic": "Sir, to process your Paytm refund of Rs 1,200, please install AnyDesk from Play Store and provide the 9-digit code for verification.",
+    "safe_action": "Never install remote desktop apps at the request of an unverified incoming caller."
+  },
+  {
+    "id": "PAT-005",
+    "name": "Part-Time Task & Telegram Deposit Scam",
+    "category": "Investment & Employment Fraud",
+    "severity": "HIGH",
+    "description": "Offers lucrative daily earnings for simple tasks (liking YouTube videos, rating hotels), then demands 'prepaid task deposits' or crypto transfers to unlock earnings.",
+    "signals_used": [
+      "JOB_OFFER_ADVANCE_FEE",
+      "CHANNEL_HOPPING",
+      "URGENCY_TIME_PRESSURE"
+    ],
+    "risk_contribution": "High Base Weight (75-88).",
+    "tactics": "Sunk-cost fallacy, initial small payout hook, shifting to private Telegram channels.",
+    "limitations": "Initial conversation text may appear polite and benign.",
+    "example_synthetic": "Part-time job offer: Earn ₹3,000 - ₹8,000 daily by liking YouTube videos from home. Join our Telegram channel @DailyJobTask to start today.",
+    "safe_action": "No legitimate employer asks candidates to pay money or deposit security fees to receive a salary."
+  },
+  {
+    "id": "PAT-006",
+    "name": "Customs Courier / FedEx Narcotics Impersonation",
+    "category": "Law Enforcement & Courier Fraud",
+    "severity": "CRITICAL",
+    "description": "Impersonators claim a parcel sent in the victim's name containing illegal contraband (narcotics, fake passports) has been intercepted by Customs/Police, demanding funds for clearance.",
+    "signals_used": [
+      "COURIER_CUSTOMS_FEE",
+      "SUSPENSION_LEGAL_THREAT",
+      "IMPERSONATION_BANK_GOVT"
+    ],
+    "risk_contribution": "Critical Base Weight (85-95).",
+    "tactics": "Digital arrest intimidation, fake police uniform video calls, coercive extortion.",
+    "limitations": "Scam evolves heavily during interactive voice calls.",
+    "example_synthetic": "Your FedEx parcel #FDX9082 containing illegal substances is detained by Customs. Legal warrant issued by Crime Branch. Pay clearance fee immediately to avoid arrest.",
+    "safe_action": "Real police or customs departments never demand online payments or issue digital arrest warrants over Skype/WhatsApp."
+  },
+  {
+    "id": "PAT-007",
+    "name": "Digital Arrest Law Enforcement Video Extortion",
+    "category": "Extortion & Legal Coercion",
+    "severity": "CRITICAL",
+    "description": "Criminals posing as CBI, ED, or Cyber Police officers threaten victims with fake non-bailable arrest warrants, coercing them into staying on Skype/WhatsApp video calls for hours while transferring savings to 'government escrow accounts'.",
+    "signals_used": [
+      "DIGITAL_ARREST_EXTORTION",
+      "IMPERSONATION_BANK_GOVT",
+      "SUSPENSION_LEGAL_THREAT",
+      "URGENCY_TIME_PRESSURE"
+    ],
+    "risk_contribution": "Critical Base Weight (90-100) with Law Enforcement Extortion synergy.",
+    "tactics": "Fake court seals, staged police backdrop rooms, psychological isolation and extreme fear.",
+    "limitations": "Victims are often pressured not to hang up or discuss the call with family.",
+    "example_synthetic": "CBI Cyber Crime Cell: A parcel containing narcotics under your Aadhaar has been intercepted. You are placed under digital arrest on Skype video call. Stay on call or police team will arrest you.",
+    "safe_action": "Indian law enforcement NEVER conducts trials or arrests via video call. Disconnect immediately and call the national cybercrime helpline 1930."
+  },
+  {
+    "id": "PAT-008",
+    "name": "VIP Stock IPO & High-Yield Ponzi Scheme",
+    "category": "Investment & Securities Fraud",
+    "severity": "CRITICAL",
+    "description": "Victims are added to private WhatsApp/Telegram trading groups promising 500% guaranteed returns on institutional IPO allocations, luring them into depositing funds into fraudulent merchant accounts.",
+    "signals_used": [
+      "INVESTMENT_PONZI_SCAM",
+      "CHANNEL_HOPPING",
+      "URGENCY_TIME_PRESSURE"
+    ],
+    "risk_contribution": "High Base Weight (80-92) with Private Channel synergy.",
+    "tactics": "Fabricated profit screenshots, fake group participants cheering earnings, urgency to deposit.",
+    "limitations": "Initial lure links may look like legitimate investment discussion groups.",
+    "example_synthetic": "VIP Institutional Stock Group: Guaranteed 500% returns in 7 days on pre-allotted IPO stocks. Join our exclusive WhatsApp trading channel @WealthVIP to start with Rs 5,000.",
+    "safe_action": "Always verify brokers on the official SEBI registry (sebi.gov.in). Never transfer investment money to personal or unverified UPI VPAs."
+  }
+]

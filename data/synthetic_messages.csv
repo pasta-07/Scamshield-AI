@@ -1,0 +1,298 @@
+id,text,label,category,url,split
+MSG-BENIGN-0243,"Dear Consumer, your BSES Rajdhani electricity bill of Rs 1,450.00 for CA #100234567 is due on 18-OCT-2026. Pay online at www.bsesdelhi.com to avail 1% rebate.",0,Benign Utility Reminder,http://www.bsesdelhi.com,train
+MSG-BENIGN-0294,Important notice: College campus will remain closed tomorrow due to heavy rain forecast.,0,Ambiguous Benign,,train
+MSG-SCAM-0169,Congratulations! You are selected for Tata Safari car lucky draw prize. Call 9811223344 to pay processing charges and claim vehicle.,1,Lottery Scam,,train
+MSG-SCAM-0020,Bank of Baroda: Important! Your account is temporarily suspended. Click http://bob-verify.online to submit your documents urgently.,1,KYC Phishing,http://bob-verify.online,train
+MSG-SCAM-0101,DHBVN Electricity Board: Your connection is scheduled for cutoff tonight. Contact officer on 9845123456 to clear dues.,1,Electricity Scam,,train
+MSG-SCAM-0025,Union Bank: Your netbanking password expired. Renew your login credentials at http://unionbank-secure.vip immediately.,1,KYC Phishing,http://unionbank-secure.vip,train
+MSG-SCAM-0174,AAPKA MOBILE NUMBER KBC LOTTERY ME CHUNA GAYA HAI. 25 LAKH KA INAAM PRAPT KARNE KE LIYE WHATSAPP KARE 9988776655.,1,Lottery Scam (Hinglish),,train
+MSG-SCAM-0151,"Google Maps Review Job: Earn Rs 500 per 5-star review. Daily earnings Rs 4,500. Message HR on Telegram @GoogleReviewTasks.",1,Job Scam,,train
+MSG-BENIGN-0179,"Rs. 450.00 debited from A/c XX8910 on 08-OCT-2026 at Swiggy UPI. Txn Ref 9081234567. Avl Bal: Rs. 12,340.00 - HDFC Bank",0,Benign Banking,,train
+MSG-BENIGN-0289,Urgent reminder: Doctor consultation starts in 15 minutes. Please proceed to Room 204.,0,Ambiguous Benign,,train
+MSG-BENIGN-0246,"Tata Power-DDL: Bill for CA 6001298471 of Rs 2,890 is generated. Due date: 20-OCT. Pay via Tata Power Mobile App or netbanking to avoid late surcharge.",0,Benign Utility Reminder,,train
+MSG-SCAM-0108,dear consumer your electricity power will be disconnected at 9.30 pm from electricity office because your previous month bill was not update please immediately contact our power officer 9876543210,1,Electricity Scam,,train
+MSG-BENIGN-0218,"Your ICICI Bank OTP for Net Banking login is 894312. Never share your OTP, password, or CVV with anyone. Stay safe from fraud.",0,Benign Security Advisory,,train
+MSG-BENIGN-0240,Uber: Your ride with driver Ramesh (DL 1Y 8921) is arriving in 3 mins. PIN is 4819.,0,Benign Delivery,,train
+MSG-BENIGN-0238,Uber: Your ride with driver Ramesh (DL 1Y 8921) is arriving in 3 mins. PIN is 4819.,0,Benign Delivery,,train
+MSG-SCAM-0083,"OLX Buyer: I am sending advance payment of Rs 12,000 for your furniture. Scan this QR code in GPay and enter your UPI PIN to credit funds in account.",1,UPI Fraud,,train
+MSG-SCAM-0074,Apna PhonePe cashback prapt karne ke liye turant collect request approve kare aur PIN enter kare.,1,UPI Fraud (Hinglish),,train
+MSG-SCAM-0002,"Dear SBI Customer, your YONO account is suspended right now due to KYC pending. Click http://sbi-kyc-verify.xyz to update urgently.",1,KYC Phishing,http://sbi-kyc-verify.xyz,train
+MSG-BENIGN-0267,"Hey, did you reach home safely? Let me know when you are free to discuss the hackathon project plan.",0,Benign General,,train
+MSG-BENIGN-0191,"Punjab National Bank: A/c *8890 debited for Rs 850.00 on 10-OCT-2026 at D-Mart POS. Avl Bal: Rs 8,450.00.",0,Benign Banking,,train
+MSG-BENIGN-0237,Swiggy: Your grocery order will be delivered in 10 mins. Share PIN 4910 with delivery partner at your doorstep.,0,Benign Delivery,,train
+MSG-BENIGN-0239,Uber: Your ride with driver Ramesh (DL 1Y 8921) is arriving in 3 mins. PIN is 4819.,0,Benign Delivery,,train
+MSG-BENIGN-0183,"Your A/c XX1209 is spent by INR 2,000.00 on 09-OCT-2026 at ATM Cash Withdrawal. Avl Bal: INR 34,100.00 - ICICI Bank",0,Benign Banking,,train
+MSG-BENIGN-0232,Zomato: Amit is on his way with your food order. Share delivery PIN 5812 upon arrival.,0,Benign Delivery,,train
+MSG-SCAM-0056,Ghar baithe 5000 rupaye daily double kare. Share market VIP tips prapt karne ke liye WhatsApp kare 9811223344.,1,Investment Ponzi Scam (Hinglish),,train
+MSG-SCAM-0006,hdfc bank alert: your netbanking will be blocked within 24 hours. update your pan card details immediately at http://hdfc-pan-update.top/login,1,KYC Phishing,http://hdfc-pan-update.top/login,train
+MSG-BENIGN-0189,"Kotak Bank: Rs 1,299.00 paid towards electricity bill ref #908123. Available balance: Rs 45,900.00.",0,Benign Banking,,train
+MSG-SCAM-0066,"paytm cashback: rs 1,999 credited to your wallet. approve the upi collect request in paytm app to receive funds instantly.",1,UPI Fraud,,train
+MSG-SCAM-0123,airtel payments bank: download quicksupport app immediately to complete your biometric fingerprint registration remotely.,1,Remote Access Scam,,train
+MSG-BENIGN-0223,"Axis Bank Advisory: Dear Customer, beware of fraudulent calls and SMS asking for KYC updates or remote app installation. Bank never asks for sensitive details.",0,Benign Security Advisory,,train
+MSG-SCAM-0133,WhatsApp Gold Update: Upgrade to premium edition with exclusive features by installing http://whatsapp-gold.club/app.apk,1,Malware/APK Scam,http://whatsapp-gold.club/app.apk,train
+MSG-SCAM-0100,DHBVN Electricity Board: Your connection is scheduled for cutoff tonight. Contact officer on 9845123456 to clear dues.,1,Electricity Scam,,train
+MSG-SCAM-0132,PAN AADHAAR LINK: MANDATORY VERIFICATION. INSTALL GOVERNMENT LINKING APP FROM HTTP://PAN-LINK-GOV.ONLINE/PAN.APK TODAY.,1,Malware/APK Scam,http://pan-link-gov.online/pan.apk,train
+MSG-SCAM-0038,Customs Department Notice: Contraband goods and foreign currency seized in international package #IND8892 under your PAN. Contact Narcotics Bureau Officer on WhatsApp urgently to avoid FIR.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0097,UPPCL Bijli Bill: Bijli ka bill jama na hone ke karan aaj raat 9:30 baje bijli kaat di jayegi. Turant sampark kare 9876501234.,1,Electricity Scam (Hinglish),,train
+MSG-SCAM-0090,bses alert: your electricity power supply will be cut off tonight. contact electricity officer at 9811223344 immediately to avoid disconnection.,1,Electricity Scam,,train
+MSG-SCAM-0039,customs department notice: contraband goods and foreign currency seized in international package #ind8892 under your pan. contact narcotics bureau officer on whatsapp immediately to avoid fir.,1,Digital Arrest Extortion,,train
+MSG-BENIGN-0229,Amazon: Your order will be delivered today by courier partner. Delivery PIN is 3918. Share only with Amazon delivery associate upon physical handover of parcel.,0,Benign Delivery,,train
+MSG-BENIGN-0275,"Airtel: Your recharge of Rs 299 is successful. 1.5GB/day data, unlimited calls, valid for 28 days.",0,Benign General,,train
+MSG-BENIGN-0226,Flipkart: Your package containing 'Wireless Mouse' is out for delivery today with partner Sunil (9876543210). Share delivery verification PIN 8492 with agent at the time of delivery.,0,Benign Delivery,,train
+MSG-SCAM-0049,Earn 200% daily profit on automated crypto arbitrage trading. Double your investment safely within 48 hours. Message Senior Analyst on WhatsApp at 9876541230.,1,Investment Ponzi Scam,,train
+MSG-BENIGN-0178,"INR 450.00 debited from A/c XX8910 on 08-OCT-2026 at Swiggy UPI. Txn Ref 9081234567. Avl Bal: INR 12,340.00 - HDFC Bank",0,Benign Banking,,train
+MSG-BENIGN-0260,"Dear student, your library book 'Database System Concepts' is due for return on 15-Oct-2026. Please return on time.",0,Benign General,,train
+MSG-SCAM-0092,Mahadiscom notice: Electricity bill unpaid. Power disconnected tonight at 10 PM. Call our executive 9988776655 right now.,1,Electricity Scam,,train
+MSG-BENIGN-0282,HR Team Reminder: Please submit your health insurance declaration form before 15-Oct-2026 on the corporate intranet.,0,Benign General,,train
+MSG-SCAM-0171,congratulations! you are selected for tata safari car lucky draw prize. call 9811223344 to pay processing charges and claim vehicle.,1,Lottery Scam,,train
+MSG-SCAM-0007,ICICI Alert: Your credit card is deactivated. Verify your identity now at http://icici-card-active.site to avoid permanent closure.,1,KYC Phishing,http://icici-card-active.site,train
+MSG-BENIGN-0190,"Punjab National Bank: A/c *8890 debited for Rs 850.00 on 10-OCT-2026 at D-Mart POS. Avl Bal: Rs 8,450.00.",0,Benign Banking,,train
+MSG-SCAM-0027,UNION BANK: YOUR NETBANKING PASSWORD EXPIRED. RENEW YOUR LOGIN CREDENTIALS AT HTTP://UNIONBANK-SECURE.VIP IMMEDIATELY.,1,KYC Phishing,http://unionbank-secure.vip,train
+MSG-SCAM-0087,"dear consumer, your electricity power will be disconnected tonight at 9:30 pm from power office because bill not updated. call 9876543210 immediately.",1,Electricity Scam,,train
+MSG-SCAM-0062,"Google Pay Reward: You have received a scratch card of Rs 2,500. Scan QR code and enter UPI PIN to receive money in bank account.",1,UPI Fraud,,train
+MSG-SCAM-0114,bank helpdesk: install teamviewer quicksupport on your mobile phone so our senior engineer can fix your transaction timeout.,1,Remote Access Scam,,train
+MSG-BENIGN-0224,"Axis Bank Advisory: Dear Customer, beware of fraudulent calls and SMS asking for KYC updates or remote app installation. Bank never asks for sensitive details.",0,Benign Security Advisory,,train
+MSG-BENIGN-0182,"Your A/c XX1209 is debited by Rs. 2,000.00 on 09-OCT-2026 at ATM Cash Withdrawal. Avl Bal: Rs. 34,100.00 - ICICI Bank",0,Benign Banking,,train
+MSG-SCAM-0121,Airtel Payments Bank: Download QuickSupport app immediately to complete your biometric fingerprint registration remotely.,1,Remote Access Scam,,train
+MSG-BENIGN-0274,"Airtel: Your recharge of Rs 299 is successful. 1.5GB/day data, unlimited calls, valid for 28 days.",0,Benign General,,train
+MSG-SCAM-0035,Cyber Police Headquarters: Non-bailable arrest warrant issued against your mobile number for illicit money laundering. Connect to officer on WhatsApp video call urgently. Do not disconnect call.,1,Digital Arrest Extortion,,train
+MSG-BENIGN-0281,HR Team Reminder: Please submit your health insurance declaration form before 15-Oct-2026 on the corporate intranet.,0,Benign General,,train
+MSG-SCAM-0079,Instant UPI refund: Send Rs 1 to refund-verify@paytm to initiate automated reversal of your failed transaction.,1,UPI Fraud,,train
+MSG-SCAM-0152,"Google Maps Review Job: Earn Rs 500 per 5-star review. Daily earnings Rs 4,500. Message HR on Telegram @GoogleReviewTasks.",1,Job Scam,,train
+MSG-BENIGN-0244,"Tata Power-DDL: Bill for CA 6001298471 of Rs 2,890 is generated. Due date: 20-OCT. Pay via Tata Power Mobile App or netbanking to avoid late surcharge.",0,Benign Utility Reminder,,train
+MSG-BENIGN-0270,Your appointment with Dr. Sharma is confirmed for 12-Oct-2026 at 5:30 PM at City Hospital.,0,Benign General,,train
+MSG-SCAM-0033,cbi cyber crime cell: a parcel containing narcotics registered on your aadhaar was intercepted at mumbai airport. you are placed under digital arrest on skype video call. stay on call or police team will arrest you.,1,Digital Arrest Extortion,,train
+MSG-BENIGN-0225,"Axis Bank Advisory: Dear Customer, beware of fraudulent calls and SMS asking for KYC updates or remote app installation. Bank never asks for sensitive details.",0,Benign Security Advisory,,train
+MSG-SCAM-0043,Mumbai Crime Branch: Illegal parcel intercepted with passport copy. Turant WhatsApp video call pe judiye aur call disconnect mat karna.,1,Digital Arrest Extortion (Hinglish),,train
+MSG-SCAM-0005,HDFC Bank Alert: Your netbanking will be blocked within 24 hours. Update your PAN card details urgently at http://hdfc-pan-update.top/login,1,KYC Phishing,http://hdfc-pan-update.top/login,train
+MSG-SCAM-0167,"KBC Lucky Draw: Congratulations! Your mobile number has won Rs 25,00,000 in KBC lottery. Contact Rana Pratap Singh on WhatsApp 9876543210 to claim.",1,Lottery Scam,,train
+MSG-BENIGN-0205,"ICICI Bank: OTP for transaction of Rs 12,500 at Croma is 749201. Bank never asks for OTP or CVV. If not done by you, SMS STOP to 561616.",0,Benign Security Alert,,train
+MSG-BENIGN-0293,Important notice: College campus will remain closed tomorrow due to heavy rain forecast.,0,Ambiguous Benign,,train
+MSG-SCAM-0010,Axis Bank Notice: Complete your mandatory KYC verification today itself by visiting http://axis-kyc-portal.club or account will be frozen.,1,KYC Phishing,http://axis-kyc-portal.club,train
+MSG-BENIGN-0186,"Dear Customer, INR 15,000.00 received to your A/c XX7722 via IMPS Ref 89012345. - Axis Bank",0,Benign Banking,,train
+MSG-SCAM-0160,DHL Express: Parcel on hold due to unpaid customs fee of Rs 450. Click http://dhl-parcel-track.site to release shipment.,1,Courier Scam,http://dhl-parcel-track.site,train
+MSG-SCAM-0149,Flipkart Affiliate hiring: Earn 50k monthly. Join Telegram group @FlipkartTasks to receive daily payment tasks.,1,Job Scam,,train
+MSG-SCAM-0122,Airtel Payments Bank: Download QuickSupport app urgently to complete your biometric fingerprint registration remotely.,1,Remote Access Scam,,train
+MSG-SCAM-0124,"Dear SBI user, download the updated SBI YONO 2.0 app from http://sbi-app-update.top/yono.apk to continue using mobile banking.",1,Malware/APK Scam,http://sbi-app-update.top/yono.apk,train
+MSG-BENIGN-0279,IIT Delhi Notice: End-semester course registration closes tonight at 11:59 PM. Please verify your course enrollments on the student ERP portal.,0,Benign General,,train
+MSG-SCAM-0106,Dear consumer your electricity power will be disconnected at 9.30 pm from electricity office because your previous month bill was not update please immediately contact our power officer 9876543210,1,Electricity Scam,,train
+MSG-SCAM-0145,Ghar baithe kamaye 5000 rupaye daily. YouTube video like kare aur paise kamaye. WhatsApp kare 9812345678.,1,Job Scam (Hinglish),,train
+MSG-SCAM-0032,CBI Cyber Crime Cell: A parcel containing narcotics registered on your Aadhaar was intercepted at Mumbai Airport. You are placed under digital arrest on Skype video call. Stay on call or police team will arrest you.,1,Digital Arrest Extortion,,train
+MSG-BENIGN-0286,Immediate action required: The office server maintenance starts at 11 PM tonight. Please save all work.,0,Ambiguous Benign,,train
+MSG-BENIGN-0297,Please complete your online course assignment before midnight today to receive the completion certificate.,0,Ambiguous Benign,,train
+MSG-SCAM-0067,"BHIM UPI: You have received Rs 10,000 from customer support. Enter UPI PIN to verify your account and receive payment.",1,UPI Fraud,,train
+MSG-BENIGN-0242,"Dear Consumer, your BSES Rajdhani electricity bill of Rs 1,450.00 for CA #100234567 is due on 18-OCT-2026. Pay online at www.bsesdelhi.com to avail 1% rebate.",0,Benign Utility Reminder,http://www.bsesdelhi.com,train
+MSG-BENIGN-0266,"Hey, did you reach home safely? Let me know when you are free to discuss the hackathon project plan.",0,Benign General,,train
+MSG-BENIGN-0202,"HDFC Bank Alert: Suspicious login attempt detected on your NetBanking. If not you, call 1800 202 6161 or visit your nearest branch.",0,Benign Security Alert,,train
+MSG-SCAM-0086,"Dear Consumer, your electricity power will be disconnected tonight at 9:30 PM from power office because bill not updated. Call 9876543210 urgently.",1,Electricity Scam,,train
+MSG-SCAM-0052,"Exclusive SEBI Insider Club: Daily guaranteed profit of Rs 15,000 with zero risk. Join our private Telegram channel @DailyProfitIndia.",1,Investment Ponzi Scam,,train
+MSG-BENIGN-0295,Please complete your online course assignment before midnight today to receive the completion certificate.,0,Ambiguous Benign,,train
+MSG-BENIGN-0234,Zomato: Amit is on his way with your food order. Share delivery PIN 5812 upon arrival.,0,Benign Delivery,,train
+MSG-SCAM-0089,BSES Alert: Your electricity power supply will be cut off tonight. Contact Electricity Officer at 9811223344 urgently to avoid disconnection.,1,Electricity Scam,,train
+MSG-BENIGN-0208,Axis Bank Fraud Control: Card XX8819 blocked temporarily due to multiple failed ATM attempts. Call 1800-419-5959 to unblock card safely.,0,Benign Security Alert,,train
+MSG-SCAM-0135,whatsapp gold update: upgrade to premium edition with exclusive features by installing http://whatsapp-gold.club/app.apk,1,Malware/APK Scam,http://whatsapp-gold.club/app.apk,train
+MSG-BENIGN-0188,"Kotak Bank: Rs 1,299.00 paid towards electricity bill ref #908123. Available balance: Rs 45,900.00.",0,Benign Banking,,train
+MSG-SCAM-0078,"dear user, ₹3,500 cashback is waiting in your gpay account. enter your upi mpin immediately to credit your savings account.",1,UPI Fraud,,train
+MSG-SCAM-0139,"Work from home opportunity: Simple typing and review task. Daily payout Rs 5,000. Message HR on WhatsApp at 9876123456.",1,Job Scam,,train
+MSG-SCAM-0034,Cyber Police Headquarters: Non-bailable arrest warrant issued against your mobile number for illicit money laundering. Connect to officer on WhatsApp video call immediately. Do not disconnect call.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0022,Canara Bank Alert: Immediate action required. Update your KYC details at http://canarabank-kyc.link within 12 hours.,1,KYC Phishing,http://canarabank-kyc.link,train
+MSG-SCAM-0071,"Cred Reward: Claim your exclusive jackpot reward of Rs 7,500. Send Re 1 verification token to rewards@okaxis to unlock prize.",1,UPI Fraud,,train
+MSG-SCAM-0061,"Google Pay Reward: You have received a scratch card of Rs 2,500. Scan QR code and enter UPI PIN to receive money in bank account.",1,UPI Fraud,,train
+MSG-SCAM-0085,"Dear Consumer, your electricity power will be disconnected tonight at 9:30 PM from power office because bill not updated. Call 9876543210 immediately.",1,Electricity Scam,,train
+MSG-BENIGN-0185,"Dear Customer, Rs. 15,000.00 credited to your A/c XX7722 via IMPS Ref 89012345. - Axis Bank",0,Benign Banking,,train
+MSG-SCAM-0158,India Post: Your package could not be delivered due to incomplete address. Update delivery address within 24 hours at http://indiapost-update.top,1,Courier Scam,http://indiapost-update.top,train
+MSG-SCAM-0157,India Post: Your package could not be delivered due to incomplete address. Update delivery address within 24 hours at http://indiapost-update.top,1,Courier Scam,http://indiapost-update.top,train
+MSG-SCAM-0147,GHAR BAITHE KAMAYE 5000 RUPAYE DAILY. YOUTUBE VIDEO LIKE KARE AUR PAISE KAMAYE. WHATSAPP KARE 9812345678.,1,Job Scam (Hinglish),,train
+MSG-BENIGN-0273,"IRCTC Booking: PNR 2849018274 confirmed for Train 12951. Coach B3, Berth 45. Happy Journey.",0,Benign General,,train
+MSG-BENIGN-0201,"SBI Security Alert: Unauthorised transaction of INR 45,000.00 attempted on card XX4912. If not done by you, call 1800-11-2211 or SMS BLOCK to 567676 immediately to protect your card.",0,Benign Security Alert,,train
+MSG-SCAM-0105,CESC URGENT: POWER DISCONNECTION ORDER ISSUED FOR YOUR METER. CALL NODAL OFFICER 9830123456 IMMEDIATELY.,1,Electricity Scam,,train
+MSG-SCAM-0125,"Dear SBI user, download the updated SBI YONO 2.0 app from http://sbi-app-update.top/yono.apk to continue using mobile banking.",1,Malware/APK Scam,http://sbi-app-update.top/yono.apk,train
+MSG-BENIGN-0228,Flipkart: Your package containing 'Wireless Mouse' is out for delivery today with partner Sunil (9876543210). Share delivery verification PIN 8492 with agent at the time of delivery.,0,Benign Delivery,,train
+MSG-BENIGN-0269,Your appointment with Dr. Sharma is confirmed for 12-Oct-2026 at 5:30 PM at City Hospital.,0,Benign General,,train
+MSG-SCAM-0011,Axis Bank Notice: Complete your mandatory KYC verification right now itself by visiting http://axis-kyc-portal.club or account will be frozen.,1,KYC Phishing,http://axis-kyc-portal.club,train
+MSG-SCAM-0073,Apna PhonePe cashback prapt karne ke liye turant collect request approve kare aur PIN enter kare.,1,UPI Fraud (Hinglish),,train
+MSG-SCAM-0154,"FedEx Alert: Your parcel #FDX8910 is detained at Mumbai Customs due to suspicious items. Pay clearance duty of Rs 1,200 at http://fedex-customs.xyz",1,Courier Scam,http://fedex-customs.xyz,train
+MSG-SCAM-0116,Google Pay Executive: Please download RustDesk application to assist you with KYC document synchronization.,1,Remote Access Scam,,train
+MSG-SCAM-0008,ICICI Alert: Your credit card is deactivated. Verify your identity now at http://icici-card-active.site to avoid permanent closure.,1,KYC Phishing,http://icici-card-active.site,train
+MSG-SCAM-0031,CBI Cyber Crime Cell: A parcel containing narcotics registered on your Aadhaar was intercepted at Mumbai Airport. You are placed under digital arrest on Skype video call. Stay on call or police team will arrest you.,1,Digital Arrest Extortion,,train
+MSG-BENIGN-0253,"Hey Priya, requested Rs 450 on PhonePe for yesterday's dinner bill split. Thanks!",0,Benign Peer UPI,,train
+MSG-SCAM-0104,CESC Urgent: Power disconnection order issued for your meter. Call nodal officer 9830123456 urgently.,1,Electricity Scam,,train
+MSG-SCAM-0107,Dear consumer your electricity power will be disconnected at 9.30 pm from electricity office because your previous month bill was not update please urgently contact our power officer 9876543210,1,Electricity Scam,,train
+MSG-BENIGN-0278,IIT Delhi Notice: End-semester course registration closes tonight at 11:59 PM. Please verify your course enrollments on the student ERP portal.,0,Benign General,,train
+MSG-SCAM-0047,"VIP Institutional Stock Group: Guaranteed 500% returns in 7 days on pre-allotted IPO stocks. Join our exclusive WhatsApp trading channel @WealthVIP to start with Rs 5,000.",1,Investment Ponzi Scam,,train
+MSG-BENIGN-0210,Axis Bank Fraud Control: Card XX8819 blocked temporarily due to multiple failed ATM attempts. Call 1800-419-5959 to unblock card safely.,0,Benign Security Alert,,train
+MSG-BENIGN-0200,"SBI Security Alert: Unauthorised transaction of Rs. 45,000.00 attempted on card XX4912. If not done by you, call 1800-11-2211 or SMS BLOCK to 567676 immediately to protect your card.",0,Benign Security Alert,,train
+MSG-BENIGN-0268,Your appointment with Dr. Sharma is confirmed for 12-Oct-2026 at 5:30 PM at City Hospital.,0,Benign General,,train
+MSG-BENIGN-0212,"OTP for online transaction of Rs. 2,499.00 at Amazon India is 584920. Bank never asks for OTP or password. Do not share OTP with anyone - HDFC Bank",0,Benign Security Advisory,,train
+MSG-BENIGN-0247,Mahadiscom: Electricity bill for Consumer No 01928374 of Rs 850 is due on 22-OCT. Pay online on www.mahadiscom.in to avoid late surcharge.,0,Benign Utility Reminder,http://www.mahadiscom.in,train
+MSG-SCAM-0134,WhatsApp Gold Update: Upgrade to premium edition with exclusive features by installing http://whatsapp-gold.club/app.apk,1,Malware/APK Scam,http://whatsapp-gold.club/app.apk,train
+MSG-SCAM-0140,"Work from home opportunity: Simple typing and review task. Daily payout Rs 5,000. Message HR on WhatsApp at 9876123456.",1,Job Scam,,train
+MSG-BENIGN-0211,"OTP for online transaction of INR 2,499.00 at Amazon India is 584920. Bank never asks for OTP or password. Do not share OTP with anyone - HDFC Bank",0,Benign Security Advisory,,train
+MSG-SCAM-0096,TATA POWER: IMMEDIATE DISCONNECTION NOTICE. PAY PREVIOUS MONTH BILL BEFORE 9:30 PM BY CALLING 9765432109.,1,Electricity Scam,,train
+MSG-BENIGN-0216,"590123 is your OTP to login to SBI Internet Banking. Valid for 10 mins. Do NOT share this OTP with anyone, including bank officials.",0,Benign Security Advisory,,train
+MSG-SCAM-0051,earn 200% daily profit on automated crypto arbitrage trading. double your investment safely within 48 hours. message senior analyst on whatsapp at 9876541230.,1,Investment Ponzi Scam,,train
+MSG-SCAM-0155,"FedEx Alert: Your parcel #FDX8910 is detained at Mumbai Customs due to suspicious items. Pay clearance duty of Rs 1,200 at http://fedex-customs.xyz",1,Courier Scam,http://fedex-customs.xyz,train
+MSG-SCAM-0077,"Dear user, ₹3,500 cashback is waiting in your GPay account. Enter your UPI MPIN urgently to credit your savings account.",1,UPI Fraud,,train
+MSG-SCAM-0028,"Dear customer, your bank account will be closed today. Turant kyc update karein http://bank-kyc-now.site par.",1,KYC Phishing (Hinglish),http://bank-kyc-now.site,train
+MSG-SCAM-0130,PAN Aadhaar Link: Mandatory verification. Install government linking app from http://pan-link-gov.online/pan.apk today.,1,Malware/APK Scam,http://pan-link-gov.online/pan.apk,train
+MSG-SCAM-0046,"VIP Institutional Stock Group: Guaranteed 500% returns in 7 days on pre-allotted IPO stocks. Join our exclusive WhatsApp trading channel @WealthVIP to start with Rs 5,000.",1,Investment Ponzi Scam,,train
+MSG-SCAM-0129,"income tax refund: tax refund of rs 18,540 approved. download it-refund app from http://incometax-filing.site/tax.apk to claim.",1,Malware/APK Scam,http://incometax-filing.site/tax.apk,train
+MSG-BENIGN-0203,"HDFC Bank Alert: Suspicious login attempt detected on your NetBanking. If not you, call 1800 202 6161 or visit your nearest branch.",0,Benign Security Alert,,train
+MSG-SCAM-0001,"Dear SBI Customer, your YONO account is suspended today due to KYC pending. Click http://sbi-kyc-verify.xyz to update immediately.",1,KYC Phishing,http://sbi-kyc-verify.xyz,train
+MSG-BENIGN-0231,Amazon: Your order will be delivered today by courier partner. Delivery PIN is 3918. Share only with Amazon delivery associate upon physical handover of parcel.,0,Benign Delivery,,train
+MSG-SCAM-0162,dhl express: parcel on hold due to unpaid customs fee of rs 450. click http://dhl-parcel-track.site to release shipment.,1,Courier Scam,http://dhl-parcel-track.site,train
+MSG-BENIGN-0284,Urgent: Please submit the final hackathon presentation deck before 6 PM tonight so the team can review.,0,Ambiguous Benign,,train
+MSG-BENIGN-0254,"Hey Priya, requested Rs 450 on PhonePe for yesterday's dinner bill split. Thanks!",0,Benign Peer UPI,,train
+MSG-BENIGN-0207,"ICICI Bank: OTP for transaction of Rs 12,500 at Croma is 749201. Bank never asks for OTP or CVV. If not done by you, SMS STOP to 561616.",0,Benign Security Alert,,train
+MSG-SCAM-0088,BSES Alert: Your electricity power supply will be cut off tonight. Contact Electricity Officer at 9811223344 immediately to avoid disconnection.,1,Electricity Scam,,train
+MSG-BENIGN-0257,"Hi Rohit, please review the quarterly budget spreadsheet before our team call at 3 PM tonight. Thanks.",0,Benign General,,train
+MSG-BENIGN-0206,"ICICI Bank: OTP for transaction of Rs 12,500 at Croma is 749201. Bank never asks for OTP or CVV. If not done by you, SMS STOP to 561616.",0,Benign Security Alert,,train
+MSG-SCAM-0030,"DEAR CUSTOMER, YOUR BANK ACCOUNT WILL BE CLOSED TODAY. TURANT KYC UPDATE KAREIN HTTP://BANK-KYC-NOW.SITE PAR.",1,KYC Phishing (Hinglish),http://bank-kyc-now.site,train
+MSG-SCAM-0003,"dear sbi customer, your yono account is suspended today due to kyc pending. click http://sbi-kyc-verify.xyz to update immediately.",1,KYC Phishing,http://sbi-kyc-verify.xyz,train
+MSG-BENIGN-0255,"Hey Priya, requested Rs 450 on PhonePe for yesterday's dinner bill split. Thanks!",0,Benign Peer UPI,,train
+MSG-SCAM-0065,"Paytm Cashback: Rs 1,999 credited to your wallet. Approve the UPI collect request in Paytm app to receive funds instantly.",1,UPI Fraud,,train
+MSG-BENIGN-0261,"Dear student, your library book 'Database System Concepts' is due for return on 15-Oct-2026. Please return on time.",0,Benign General,,train
+MSG-BENIGN-0283,Urgent: Please submit the final hackathon presentation deck before 6 PM today so the team can review.,0,Ambiguous Benign,,train
+MSG-BENIGN-0251,"Hi Dad, I sent a GPay collect request for Rs 1,500 for college semester textbook fees. Please approve when you are free.",0,Benign Peer UPI,,train
+MSG-BENIGN-0209,Axis Bank Fraud Control: Card XX8819 blocked temporarily due to multiple failed ATM attempts. Call 1800-419-5959 to unblock card safely.,0,Benign Security Alert,,train
+MSG-SCAM-0099,uppcl bijli bill: bijli ka bill jama na hone ke karan aaj raat 9:30 baje bijli kaat di jayegi. turant sampark kare 9876501234.,1,Electricity Scam (Hinglish),,train
+MSG-BENIGN-0193,Bank of Baroda: Your monthly interest of INR 245.00 has been credited to your savings account *3412.,0,Benign Banking,,train
+MSG-SCAM-0153,"google maps review job: earn rs 500 per 5-star review. daily earnings rs 4,500. message hr on telegram @googlereviewtasks.",1,Job Scam,,train
+MSG-SCAM-0109,"Paytm Support: To resolve your failed transaction of Rs 1,450, install AnyDesk app from Play Store and share the 9-digit code.",1,Remote Access Scam,,train
+MSG-BENIGN-0256,"Hi Rohit, please review the quarterly budget spreadsheet before our team call at 3 PM today. Thanks.",0,Benign General,,train
+MSG-BENIGN-0252,"Hi Dad, I sent a GPay collect request for Rs 1,500 for college semester textbook fees. Please approve when you are free.",0,Benign Peer UPI,,train
+MSG-SCAM-0040,Enforcement Directorate (ED): Your bank accounts are frozen under PMLA. Join confidential Skype video interrogation room immediately to record statement.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0029,"Dear customer, your bank account will be closed right now. Turant kyc update karein http://bank-kyc-now.site par.",1,KYC Phishing (Hinglish),http://bank-kyc-now.site,train
+MSG-BENIGN-0296,Please complete your online course assignment before midnight tonight to receive the completion certificate.,0,Ambiguous Benign,,train
+MSG-SCAM-0024,CANARA BANK ALERT: IMMEDIATE ACTION REQUIRED. UPDATE YOUR KYC DETAILS AT HTTP://CANARABANK-KYC.LINK WITHIN 12 HOURS.,1,KYC Phishing,http://canarabank-kyc.link,train
+MSG-SCAM-0127,"Income Tax Refund: Tax refund of Rs 18,540 approved. Download IT-Refund app from http://incometax-filing.site/tax.apk to claim.",1,Malware/APK Scam,http://incometax-filing.site/tax.apk,train
+MSG-SCAM-0131,PAN Aadhaar Link: Mandatory verification. Install government linking app from http://pan-link-gov.online/pan.apk right now.,1,Malware/APK Scam,http://pan-link-gov.online/pan.apk,train
+MSG-BENIGN-0249,Mahadiscom: Electricity bill for Consumer No 01928374 of Rs 850 is due on 22-OCT. Pay online on www.mahadiscom.in to avoid late surcharge.,0,Benign Utility Reminder,http://www.mahadiscom.in,train
+MSG-BENIGN-0204,"HDFC Bank Alert: Suspicious login attempt detected on your NetBanking. If not you, call 1800 202 6161 or visit your nearest branch.",0,Benign Security Alert,,train
+MSG-BENIGN-0248,Mahadiscom: Electricity bill for Consumer No 01928374 of Rs 850 is due on 22-OCT. Pay online on www.mahadiscom.in to avoid late surcharge.,0,Benign Utility Reminder,http://www.mahadiscom.in,train
+MSG-BENIGN-0265,"Hey, did you reach home safely? Let me know when you are free to discuss the hackathon project plan.",0,Benign General,,train
+MSG-BENIGN-0220,674902 is your verification code for PhonePe. Do not share this code with anyone. PhonePe staff will never call asking for OTP.,0,Benign Security Advisory,,train
+MSG-SCAM-0110,"Paytm Support: To resolve your failed transaction of Rs 1,450, install AnyDesk app from Play Store and share the 9-digit code.",1,Remote Access Scam,,train
+MSG-SCAM-0150,FLIPKART AFFILIATE HIRING: EARN 50K MONTHLY. JOIN TELEGRAM GROUP @FLIPKARTTASKS TO RECEIVE DAILY PAYMENT TASKS.,1,Job Scam,,train
+MSG-BENIGN-0245,"Tata Power-DDL: Bill for CA 6001298471 of Rs 2,890 is generated. Due date: 20-OCT. Pay via Tata Power Mobile App or netbanking to avoid late surcharge.",0,Benign Utility Reminder,,train
+MSG-SCAM-0138,"part-time job offer: earn rs 3,000 to rs 8,000 daily by liking youtube videos from home. join our telegram channel @dailyearnindia.",1,Job Scam,,train
+MSG-SCAM-0144,"amazon task hiring: earn daily salary of rs 4,500. deposit rs 500 registration fee to activate vip prepaid tasks on telegram.",1,Job Scam,,train
+MSG-BENIGN-0258,"Hi Rohit, please review the quarterly budget spreadsheet before our team call at 3 PM today. Thanks.",0,Benign General,,train
+MSG-SCAM-0036,cyber police headquarters: non-bailable arrest warrant issued against your mobile number for illicit money laundering. connect to officer on whatsapp video call immediately. do not disconnect call.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0068,"BHIM UPI: You have received Rs 10,000 from customer support. Enter UPI PIN to verify your account and receive payment.",1,UPI Fraud,,train
+MSG-SCAM-0037,Customs Department Notice: Contraband goods and foreign currency seized in international package #IND8892 under your PAN. Contact Narcotics Bureau Officer on WhatsApp immediately to avoid FIR.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0118,"Customer Care: To process instant refund, install Zoho Assist remote software and connect with our live technical agent.",1,Remote Access Scam,,train
+MSG-SCAM-0165,customs department notice: a legal notice has been issued against parcel #ct9910. contact narcotics bureau officer immediately.,1,Courier Scam,,train
+MSG-BENIGN-0290,Urgent reminder: Doctor consultation starts in 15 minutes. Please proceed to Room 204.,0,Ambiguous Benign,,train
+MSG-SCAM-0128,"Income Tax Refund: Tax refund of Rs 18,540 approved. Download IT-Refund app from http://incometax-filing.site/tax.apk to claim.",1,Malware/APK Scam,http://incometax-filing.site/tax.apk,train
+MSG-SCAM-0168,"kbc lucky draw: congratulations! your mobile number has won rs 25,00,000 in kbc lottery. contact rana pratap singh on whatsapp 9876543210 to claim.",1,Lottery Scam,,train
+MSG-BENIGN-0192,"Punjab National Bank: A/c *8890 spent for Rs 850.00 on 10-OCT-2026 at D-Mart POS. Avl Bal: Rs 8,450.00.",0,Benign Banking,,train
+MSG-BENIGN-0196,"A/c XX9910 credited with INR 500.00 from rahul@okhdfcbank via UPI. Avl Bal: INR 5,420.00 - Paytm Payments Bank",0,Benign Banking,,train
+MSG-BENIGN-0263,Meeting reminder: Project sprint retrospective scheduled for tomorrow at 11:00 AM on Google Meet.,0,Benign General,,train
+MSG-SCAM-0146,Ghar baithe kamaye 5000 rupaye daily. YouTube video like kare aur paise kamaye. WhatsApp kare 9812345678.,1,Job Scam (Hinglish),,train
+MSG-SCAM-0055,Ghar baithe 5000 rupaye daily double kare. Share market VIP tips prapt karne ke liye WhatsApp kare 9811223344.,1,Investment Ponzi Scam (Hinglish),,train
+MSG-BENIGN-0287,Immediate action required: The office server maintenance starts at 11 PM tonight. Please save all work.,0,Ambiguous Benign,,train
+MSG-BENIGN-0235,Swiggy: Your grocery order will be delivered in 10 mins. Share PIN 4910 with delivery partner at your doorstep.,0,Benign Delivery,,train
+MSG-SCAM-0103,CESC Urgent: Power disconnection order issued for your meter. Call nodal officer 9830123456 immediately.,1,Electricity Scam,,train
+MSG-SCAM-0081,INSTANT UPI REFUND: SEND RS 1 TO REFUND-VERIFY@PAYTM TO INITIATE AUTOMATED REVERSAL OF YOUR FAILED TRANSACTION.,1,UPI Fraud,,train
+MSG-SCAM-0009,icici alert: your credit card is deactivated. verify your identity now at http://icici-card-active.site to avoid permanent closure.,1,KYC Phishing,http://icici-card-active.site,train
+MSG-BENIGN-0241,"Dear Consumer, your BSES Rajdhani electricity bill of Rs 1,450.00 for CA #100234567 is due on 18-OCT-2026. Pay online at www.bsesdelhi.com to avail 1% rebate.",0,Benign Utility Reminder,http://www.bsesdelhi.com,train
+MSG-SCAM-0015,pnb alert: your debit card has been blocked due to suspicious activity. click http://192.168.1.105/pnb-unblock to restore access.,1,KYC Phishing,http://192.168.1.105/pnb-unblock,train
+MSG-BENIGN-0199,"SBI Security Alert: Unauthorised transaction of INR 45,000.00 attempted on card XX4912. If not done by you, call 1800-11-2211 or SMS BLOCK to 567676 immediately to protect your card.",0,Benign Security Alert,,train
+MSG-BENIGN-0197,"A/c XX9910 credited with Rs. 500.00 from rahul@okhdfcbank via UPI. Avl Bal: Rs. 5,420.00 - Paytm Payments Bank",0,Benign Banking,,train
+MSG-SCAM-0084,"olx buyer: i am sending advance payment of rs 12,000 for your furniture. scan this qr code in gpay and enter your upi pin to credit funds in account.",1,UPI Fraud,,train
+MSG-BENIGN-0176,"Your A/c XX4521 is credited with Rs. 65,000.00 on 05-OCT-2026 by NEFT salary transfer. Avl Bal: Rs. 78,420.50 - SBI",0,Benign Banking,,train
+MSG-SCAM-0057,GHAR BAITHE 5000 RUPAYE DAILY DOUBLE KARE. SHARE MARKET VIP TIPS PRAPT KARNE KE LIYE WHATSAPP KARE 9811223344.,1,Investment Ponzi Scam (Hinglish),,train
+MSG-BENIGN-0271,"IRCTC Booking: PNR 2849018274 confirmed for Train 12951. Coach B3, Berth 45. Happy Journey.",0,Benign General,,train
+MSG-BENIGN-0262,Meeting reminder: Project sprint retrospective scheduled for tomorrow at 11:00 AM on Google Meet.,0,Benign General,,train
+MSG-SCAM-0164,Customs Department Notice: A legal notice has been issued against parcel #CT9910. Contact Narcotics Bureau officer urgently.,1,Courier Scam,,train
+MSG-SCAM-0070,"Cred Reward: Claim your exclusive jackpot reward of Rs 7,500. Send Re 1 verification token to rewards@okaxis to unlock prize.",1,UPI Fraud,,train
+MSG-BENIGN-0233,Zomato: Amit is on his way with your food order. Share delivery PIN 5812 upon arrival.,0,Benign Delivery,,train
+MSG-SCAM-0119,"Customer Care: To process instant refund, install Zoho Assist remote software and connect with our live technical agent.",1,Remote Access Scam,,train
+MSG-BENIGN-0250,"Hi Dad, I sent a GPay collect request for Rs 1,500 for college semester textbook fees. Please approve when you are free.",0,Benign Peer UPI,,train
+MSG-SCAM-0063,"google pay reward: you have received a scratch card of rs 2,500. scan qr code and enter upi pin to receive money in bank account.",1,UPI Fraud,,train
+MSG-BENIGN-0187,"Kotak Bank: Rs 1,299.00 paid towards electricity bill ref #908123. Available balance: Rs 45,900.00.",0,Benign Banking,,train
+MSG-SCAM-0137,"Part-time job offer: Earn Rs 3,000 to Rs 8,000 daily by liking YouTube videos from home. Join our Telegram channel @DailyEarnIndia.",1,Job Scam,,train
+MSG-SCAM-0044,Mumbai Crime Branch: Illegal parcel intercepted with passport copy. Turant WhatsApp video call pe judiye aur call disconnect mat karna.,1,Digital Arrest Extortion (Hinglish),,train
+MSG-BENIGN-0277,IIT Delhi Notice: End-semester course registration closes tonight at 11:59 PM. Please verify your course enrollments on the student ERP portal.,0,Benign General,,train
+MSG-SCAM-0156,"fedex alert: your parcel #fdx8910 is detained at mumbai customs due to suspicious items. pay clearance duty of rs 1,200 at http://fedex-customs.xyz",1,Courier Scam,http://fedex-customs.xyz,train
+MSG-SCAM-0019,Bank of Baroda: Important! Your account is temporarily suspended. Click http://bob-verify.online to submit your documents immediately.,1,KYC Phishing,http://bob-verify.online,train
+MSG-SCAM-0166,"KBC Lucky Draw: Congratulations! Your mobile number has won Rs 25,00,000 in KBC lottery. Contact Rana Pratap Singh on WhatsApp 9876543210 to claim.",1,Lottery Scam,,train
+MSG-BENIGN-0272,"IRCTC Booking: PNR 2849018274 confirmed for Train 12951. Coach B3, Berth 45. Happy Journey.",0,Benign General,,train
+MSG-BENIGN-0180,"INR 450.00 spent from A/c XX8910 on 08-OCT-2026 at Swiggy UPI. Txn Ref 9081234567. Avl Bal: INR 12,340.00 - HDFC Bank",0,Benign Banking,,train
+MSG-SCAM-0069,"BHIM UPI: YOU HAVE RECEIVED RS 10,000 FROM CUSTOMER SUPPORT. ENTER UPI PIN TO VERIFY YOUR ACCOUNT AND RECEIVE PAYMENT.",1,UPI Fraud,,train
+MSG-SCAM-0172,Aapka mobile number KBC lottery me chuna gaya hai. 25 lakh ka inaam prapt karne ke liye WhatsApp kare 9988776655.,1,Lottery Scam (Hinglish),,train
+MSG-SCAM-0054,"exclusive sebi insider club: daily guaranteed profit of rs 15,000 with zero risk. join our private telegram channel @dailyprofitindia.",1,Investment Ponzi Scam,,train
+MSG-SCAM-0091,Mahadiscom notice: Electricity bill unpaid. Power disconnected tonight at 10 PM. Call our executive 9988776655 right now.,1,Electricity Scam,,train
+MSG-SCAM-0095,Tata Power: Immediate disconnection notice. Pay previous month bill before 9:30 PM by calling 9765432109.,1,Electricity Scam,,train
+MSG-SCAM-0042,enforcement directorate (ed): your bank accounts are frozen under pmla. join confidential skype video interrogation room immediately to record statement.,1,Digital Arrest Extortion,,train
+MSG-SCAM-0094,Tata Power: Immediate disconnection notice. Pay previous month bill before 9:30 PM by calling 9765432109.,1,Electricity Scam,,train
+MSG-BENIGN-0214,"590123 is your OTP to login to SBI Internet Banking. Valid for 10 mins. Do NOT share this OTP with anyone, including bank officials.",0,Benign Security Advisory,,train
+MSG-SCAM-0163,Customs Department Notice: A legal notice has been issued against parcel #CT9910. Contact Narcotics Bureau officer immediately.,1,Courier Scam,,train
+MSG-SCAM-0117,GOOGLE PAY EXECUTIVE: PLEASE DOWNLOAD RUSTDESK APPLICATION TO ASSIST YOU WITH KYC DOCUMENT SYNCHRONIZATION.,1,Remote Access Scam,,train
+MSG-BENIGN-0292,Important notice: College campus will remain closed tomorrow due to heavy rain forecast.,0,Ambiguous Benign,,train
+MSG-SCAM-0098,UPPCL Bijli Bill: Bijli ka bill jama na hone ke karan aaj raat 9:30 baje bijli kaat di jayegi. Turant sampark kare 9876501234.,1,Electricity Scam (Hinglish),,train
+MSG-SCAM-0026,Union Bank: Your netbanking password expired. Renew your login credentials at http://unionbank-secure.vip urgently.,1,KYC Phishing,http://unionbank-secure.vip,train
+MSG-BENIGN-0222,674902 is your verification code for PhonePe. Do not share this code with anyone. PhonePe staff will never call asking for OTP.,0,Benign Security Advisory,,train
+MSG-SCAM-0060,"congratulations! you won ₹5,000 phonepe festive cashback. click http://phonepe-reward-claim.xyz and enter your upi pin to claim money.",1,UPI Fraud,http://phonepe-reward-claim.xyz,train
+MSG-BENIGN-0219,"Your ICICI Bank OTP for Net Banking login is 894312. Never share your OTP, password, or CVV with anyone. Stay safe from fraud.",0,Benign Security Advisory,,train
+MSG-SCAM-0021,bank of baroda: important! your account is temporarily suspended. click http://bob-verify.online to submit your documents immediately.,1,KYC Phishing,http://bob-verify.online,test
+MSG-SCAM-0075,APNA PHONEPE CASHBACK PRAPT KARNE KE LIYE TURANT COLLECT REQUEST APPROVE KARE AUR PIN ENTER KARE.,1,UPI Fraud (Hinglish),,test
+MSG-BENIGN-0198,"A/c XX9910 received with INR 500.00 from rahul@okhdfcbank via UPI. Avl Bal: INR 5,420.00 - Paytm Payments Bank",0,Benign Banking,,test
+MSG-SCAM-0059,"Congratulations! You won ₹5,000 PhonePe festive cashback. Click http://phonepe-reward-claim.xyz and enter your UPI PIN to claim money.",1,UPI Fraud,http://phonepe-reward-claim.xyz,test
+MSG-SCAM-0170,Congratulations! You are selected for Tata Safari car lucky draw prize. Call 9811223344 to pay processing charges and claim vehicle.,1,Lottery Scam,,test
+MSG-SCAM-0012,axis bank notice: complete your mandatory kyc verification today itself by visiting http://axis-kyc-portal.club or account will be frozen.,1,KYC Phishing,http://axis-kyc-portal.club,test
+MSG-SCAM-0018,kotak mahindra: your 811 account is blocked. update aadhaar and pan immediately at http://kotak-aadhaar-link.xyz before midnight.,1,KYC Phishing,http://kotak-aadhaar-link.xyz,test
+MSG-BENIGN-0181,"Your A/c XX1209 is debited by INR 2,000.00 on 09-OCT-2026 at ATM Cash Withdrawal. Avl Bal: INR 34,100.00 - ICICI Bank",0,Benign Banking,,test
+MSG-BENIGN-0264,Meeting reminder: Project sprint retrospective scheduled for tomorrow at 11:00 AM on Google Meet.,0,Benign General,,test
+MSG-SCAM-0148,Flipkart Affiliate hiring: Earn 50k monthly. Join Telegram group @FlipkartTasks to receive daily payment tasks.,1,Job Scam,,test
+MSG-SCAM-0093,mahadiscom notice: electricity bill unpaid. power disconnected tonight at 10 pm. call our executive 9988776655 right now.,1,Electricity Scam,,test
+MSG-BENIGN-0221,674902 is your verification code for PhonePe. Do not share this code with anyone. PhonePe staff will never call asking for OTP.,0,Benign Security Advisory,,test
+MSG-BENIGN-0227,Flipkart: Your package containing 'Wireless Mouse' is out for delivery tonight with partner Sunil (9876543210). Share delivery verification PIN 8492 with agent at the time of delivery.,0,Benign Delivery,,test
+MSG-SCAM-0159,india post: your package could not be delivered due to incomplete address. update delivery address within 24 hours at http://indiapost-update.top,1,Courier Scam,http://indiapost-update.top,test
+MSG-SCAM-0161,DHL Express: Parcel on hold due to unpaid customs fee of Rs 450. Click http://dhl-parcel-track.site to release shipment.,1,Courier Scam,http://dhl-parcel-track.site,test
+MSG-BENIGN-0213,"OTP for online transaction of INR 2,499.00 at Amazon India is 584920. Bank never asks for OTP or password. Do not share OTP with anyone - HDFC Bank",0,Benign Security Advisory,,test
+MSG-SCAM-0076,"Dear user, ₹3,500 cashback is waiting in your GPay account. Enter your UPI MPIN immediately to credit your savings account.",1,UPI Fraud,,test
+MSG-SCAM-0142,"Amazon Task Hiring: Earn daily salary of Rs 4,500. Deposit Rs 500 registration fee to activate VIP prepaid tasks on Telegram.",1,Job Scam,,test
+MSG-SCAM-0041,Enforcement Directorate (ED): Your bank accounts are frozen under PMLA. Join confidential Skype video interrogation room urgently to record statement.,1,Digital Arrest Extortion,,test
+MSG-BENIGN-0194,Bank of Baroda: Your monthly interest of Rs. 245.00 has been credited to your savings account *3412.,0,Benign Banking,,test
+MSG-SCAM-0064,"Paytm Cashback: Rs 1,999 credited to your wallet. Approve the UPI collect request in Paytm app to receive funds instantly.",1,UPI Fraud,,test
+MSG-BENIGN-0236,Swiggy: Your grocery order will be delivered in 10 mins. Share PIN 4910 with delivery partner at your doorstep.,0,Benign Delivery,,test
+MSG-SCAM-0023,Canara Bank Alert: Immediate action required. Update your KYC details at http://canarabank-kyc.link within 12 hours.,1,KYC Phishing,http://canarabank-kyc.link,test
+MSG-SCAM-0136,"Part-time job offer: Earn Rs 3,000 to Rs 8,000 daily by liking YouTube videos from home. Join our Telegram channel @DailyEarnIndia.",1,Job Scam,,test
+MSG-BENIGN-0177,"Your A/c XX4521 is received with INR 65,000.00 on 05-OCT-2026 by NEFT salary transfer. Avl Bal: INR 78,420.50 - SBI",0,Benign Banking,,test
+MSG-BENIGN-0184,"Dear Customer, INR 15,000.00 credited to your A/c XX7722 via IMPS Ref 89012345. - Axis Bank",0,Benign Banking,,test
+MSG-SCAM-0050,Earn 200% daily profit on automated crypto arbitrage trading. Double your investment safely within 48 hours. Message Senior Analyst on WhatsApp at 9876541230.,1,Investment Ponzi Scam,,test
+MSG-BENIGN-0195,Bank of Baroda: Your monthly interest of INR 245.00 has been received to your savings account *3412.,0,Benign Banking,,test
+MSG-BENIGN-0285,Urgent: Please submit the final hackathon presentation deck before 6 PM today so the team can review.,0,Ambiguous Benign,,test
+MSG-BENIGN-0291,Urgent reminder: Doctor consultation starts in 15 minutes. Please proceed to Room 204.,0,Ambiguous Benign,,test
+MSG-SCAM-0173,Aapka mobile number KBC lottery me chuna gaya hai. 25 lakh ka inaam prapt karne ke liye WhatsApp kare 9988776655.,1,Lottery Scam (Hinglish),,test
+MSG-SCAM-0111,"paytm support: to resolve your failed transaction of rs 1,450, install anydesk app from play store and share the 9-digit code.",1,Remote Access Scam,,test
+MSG-SCAM-0080,Instant UPI refund: Send Rs 1 to refund-verify@paytm to initiate automated reversal of your failed transaction.,1,UPI Fraud,,test
+MSG-BENIGN-0276,"Airtel: Your recharge of Rs 299 is successful. 1.5GB/day data, unlimited calls, valid for 28 days.",0,Benign General,,test
+MSG-BENIGN-0175,"Your A/c XX4521 is credited with INR 65,000.00 on 05-OCT-2026 by NEFT salary transfer. Avl Bal: INR 78,420.50 - SBI",0,Benign Banking,,test
+MSG-BENIGN-0288,Immediate action required: The office server maintenance starts at 11 PM tonight. Please save all work.,0,Ambiguous Benign,,test
+MSG-SCAM-0082,"OLX Buyer: I am sending advance payment of Rs 12,000 for your furniture. Scan this QR code in GPay and enter your UPI PIN to credit funds in account.",1,UPI Fraud,,test
+MSG-SCAM-0004,HDFC Bank Alert: Your netbanking will be blocked within 24 hours. Update your PAN card details immediately at http://hdfc-pan-update.top/login,1,KYC Phishing,http://hdfc-pan-update.top/login,test
+MSG-SCAM-0143,"Amazon Task Hiring: Earn daily salary of Rs 4,500. Deposit Rs 500 registration fee to activate VIP prepaid tasks on Telegram.",1,Job Scam,,test
+MSG-BENIGN-0230,Amazon: Your order will be delivered tonight by courier partner. Delivery PIN is 3918. Share only with Amazon delivery associate upon physical handover of parcel.,0,Benign Delivery,,test
+MSG-SCAM-0113,Bank Helpdesk: Install TeamViewer QuickSupport on your mobile phone so our senior engineer can fix your transaction timeout.,1,Remote Access Scam,,test
+MSG-BENIGN-0215,"590123 is your OTP to login to SBI Internet Banking. Valid for 10 mins. Do NOT share this OTP with anyone, including bank officials.",0,Benign Security Advisory,,test
+MSG-SCAM-0102,DHBVN ELECTRICITY BOARD: YOUR CONNECTION IS SCHEDULED FOR CUTOFF TONIGHT. CONTACT OFFICER ON 9845123456 TO CLEAR DUES.,1,Electricity Scam,,test
+MSG-SCAM-0014,PNB Alert: Your debit card has been blocked due to suspicious activity. Click http://192.168.1.105/pnb-unblock to restore access.,1,KYC Phishing,http://192.168.1.105/pnb-unblock,test
+MSG-BENIGN-0259,"Dear student, your library book 'Database System Concepts' is due for return on 15-Oct-2026. Please return on time.",0,Benign General,,test
+MSG-SCAM-0120,"customer care: to process instant refund, install zoho assist remote software and connect with our live technical agent.",1,Remote Access Scam,,test
+MSG-SCAM-0112,Bank Helpdesk: Install TeamViewer QuickSupport on your mobile phone so our senior engineer can fix your transaction timeout.,1,Remote Access Scam,,test
+MSG-SCAM-0048,"vip institutional stock group: guaranteed 500% returns in 7 days on pre-allotted ipo stocks. join our exclusive whatsapp trading channel @wealthvip to start with rs 5,000.",1,Investment Ponzi Scam,,test
+MSG-SCAM-0016,Kotak Mahindra: Your 811 account is blocked. Update Aadhaar and PAN immediately at http://kotak-aadhaar-link.xyz before midnight.,1,KYC Phishing,http://kotak-aadhaar-link.xyz,test
+MSG-SCAM-0017,Kotak Mahindra: Your 811 account is blocked. Update Aadhaar and PAN urgently at http://kotak-aadhaar-link.xyz before midnight.,1,KYC Phishing,http://kotak-aadhaar-link.xyz,test
+MSG-BENIGN-0217,"Your ICICI Bank OTP for Net Banking login is 894312. Never share your OTP, password, or CVV with anyone. Stay safe from fraud.",0,Benign Security Advisory,,test
+MSG-SCAM-0045,mumbai crime branch: illegal parcel intercepted with passport copy. turant whatsapp video call pe judiye aur call disconnect mat karna.,1,Digital Arrest Extortion (Hinglish),,test
+MSG-BENIGN-0280,HR Team Reminder: Please submit your health insurance declaration form before 15-Oct-2026 on the corporate intranet.,0,Benign General,,test
+MSG-SCAM-0053,"Exclusive SEBI Insider Club: Daily guaranteed profit of Rs 15,000 with zero risk. Join our private Telegram channel @DailyProfitIndia.",1,Investment Ponzi Scam,,test
+MSG-SCAM-0072,"cred reward: claim your exclusive jackpot reward of rs 7,500. send re 1 verification token to rewards@okaxis to unlock prize.",1,UPI Fraud,,test
+MSG-SCAM-0115,Google Pay Executive: Please download RustDesk application to assist you with KYC document synchronization.,1,Remote Access Scam,,test
+MSG-SCAM-0126,"dear sbi user, download the updated sbi yono 2.0 app from http://sbi-app-update.top/yono.apk to continue using mobile banking.",1,Malware/APK Scam,http://sbi-app-update.top/yono.apk,test
+MSG-SCAM-0141,"WORK FROM HOME OPPORTUNITY: SIMPLE TYPING AND REVIEW TASK. DAILY PAYOUT RS 5,000. MESSAGE HR ON WHATSAPP AT 9876123456.",1,Job Scam,,test
+MSG-SCAM-0013,PNB Alert: Your debit card has been blocked due to suspicious activity. Click http://192.168.1.105/pnb-unblock to restore access.,1,KYC Phishing,http://192.168.1.105/pnb-unblock,test
+MSG-SCAM-0058,"Congratulations! You won ₹5,000 PhonePe festive cashback. Click http://phonepe-reward-claim.xyz and enter your UPI PIN to claim money.",1,UPI Fraud,http://phonepe-reward-claim.xyz,test

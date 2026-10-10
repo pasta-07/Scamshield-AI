@@ -1,0 +1,242 @@
+[
+  {
+    "scenario_id": "SCN-MULTI-001",
+    "title": "Bank Account Suspension & Fake APK Exfiltration (Demo C)",
+    "category": "Banking Impersonation & Malware",
+    "description": "A 4-step sequence where the attacker moves from initial contact, to creating panic, providing an unofficial APK link, and finally demanding the OTP.",
+    "events": [
+      {
+        "id": "EV-101",
+        "step": 1,
+        "timestamp": "10:15 AM",
+        "sender": "+91-9876543210",
+        "event_type": "SMS",
+        "text": "Dear SBI Customer, Welcome to SBI YONO priority support. Your relationship manager has updated your service tier."
+      },
+      {
+        "id": "EV-102",
+        "step": 2,
+        "timestamp": "10:18 AM",
+        "sender": "+91-9876543210",
+        "event_type": "SMS",
+        "text": "URGENT WARNING: Your SBI YONO account will be permanently BLOCKED and deactivated within 24 hours due to non-verification of PAN card."
+      },
+      {
+        "id": "EV-103",
+        "step": 3,
+        "timestamp": "10:22 AM",
+        "sender": "SBI-Support (WhatsApp)",
+        "event_type": "WhatsApp Message",
+        "text": "Download the official SBI KYC update app immediately from http://sbi-secure-update.xyz/sbi_yono_update.apk to complete instant verification."
+      },
+      {
+        "id": "EV-104",
+        "step": 4,
+        "timestamp": "10:25 AM",
+        "sender": "SBI Executive (+91-9876543210)",
+        "event_type": "Phone Call / SMS",
+        "text": "Please provide the 6-digit OTP received on your mobile to synchronize your KYC verification with our central banking server."
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-002",
+    "title": "Remote Access Technical Support Refund Scam",
+    "category": "Tech Support & Device Compromise",
+    "description": "An attacker poses as payment app customer support to resolve a failed transaction, coercing the victim into installing AnyDesk.",
+    "events": [
+      {
+        "id": "EV-201",
+        "step": 1,
+        "timestamp": "02:30 PM",
+        "sender": "+91-9123456780",
+        "event_type": "Phone Call",
+        "text": "Hello, I am calling from Paytm Customer Care regarding your pending refund of Rs 2,450 from yesterday's failed merchant payment."
+      },
+      {
+        "id": "EV-202",
+        "step": 2,
+        "timestamp": "02:33 PM",
+        "sender": "+91-9123456780",
+        "event_type": "WhatsApp Message",
+        "text": "Due to technical server timeout, direct refund failed. We need to initiate manual node verification right now."
+      },
+      {
+        "id": "EV-203",
+        "step": 3,
+        "timestamp": "02:35 PM",
+        "sender": "+91-9123456780",
+        "event_type": "SMS",
+        "text": "Please install AnyDesk QuickSupport from Google Play Store and share the 9-digit address code so our technician can verify your wallet."
+      },
+      {
+        "id": "EV-204",
+        "step": 4,
+        "timestamp": "02:38 PM",
+        "sender": "+91-9123456780",
+        "event_type": "WhatsApp Call",
+        "text": "Now open your PhonePe or Google Pay app and enter your UPI PIN to approve the Re 1 test refund token."
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-003",
+    "title": "Fake Electricity Disconnection Panic Attack",
+    "category": "Utility Coercion",
+    "description": "Coercive power disconnection threat aimed at extracting immediate online payments via personal UPI VPAs.",
+    "events": [
+      {
+        "id": "EV-301",
+        "step": 1,
+        "timestamp": "07:45 PM",
+        "sender": "VM-POWERCORP",
+        "event_type": "SMS",
+        "text": "Dear Consumer, your electricity power will be disconnected tonight at 9:30 PM from BSES office because your previous bill was not updated."
+      },
+      {
+        "id": "EV-302",
+        "step": 2,
+        "timestamp": "08:10 PM",
+        "sender": "+91-9876123450",
+        "event_type": "WhatsApp Message",
+        "text": "I am BSES Electricity Officer. Your power supply line is scheduled for termination. Call me immediately on this number to clear bill."
+      },
+      {
+        "id": "EV-303",
+        "step": 3,
+        "timestamp": "08:15 PM",
+        "sender": "+91-9876123450",
+        "event_type": "WhatsApp Message",
+        "text": "Send pending amount of Rs 850 immediately to electricity-officer-bill@okaxis via UPI to avoid disconnection."
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-004",
+    "title": "Legitimate Automated Banking Sequence (Demo A - Benign)",
+    "category": "Benign Banking Activity",
+    "description": "Standard legitimate financial transactions showing how the correlation engine correctly maintains low risk.",
+    "events": [
+      {
+        "id": "EV-401",
+        "step": 1,
+        "timestamp": "09:00 AM",
+        "sender": "HDFCBK-OFFICIAL",
+        "event_type": "SMS",
+        "text": "Your A/c XX4521 is credited with INR 75,000.00 on 10-OCT-2026 by NEFT salary transfer. Avl Bal: INR 84,320.50 - HDFC Bank"
+      },
+      {
+        "id": "EV-402",
+        "step": 2,
+        "timestamp": "12:15 PM",
+        "sender": "HDFCBK-OFFICIAL",
+        "event_type": "SMS",
+        "text": "OTP for online transaction of INR 1,299.00 at Zomato is 849201. Bank never asks for OTP or password. Do not share OTP with anyone."
+      },
+      {
+        "id": "EV-403",
+        "step": 3,
+        "timestamp": "12:16 PM",
+        "sender": "HDFCBK-OFFICIAL",
+        "event_type": "SMS",
+        "text": "INR 1,299.00 debited from A/c XX4521 on 10-OCT-2026 at Zomato POS. Txn Ref 98320491. Avl Bal: INR 83,021.50"
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-005",
+    "title": "Ambiguous Time Pressure Case (Demo E)",
+    "category": "Ambiguous / Edge Case",
+    "description": "A communication containing urgent language but completely lacking financial, credential, or deceptive indicators.",
+    "events": [
+      {
+        "id": "EV-501",
+        "step": 1,
+        "timestamp": "04:00 PM",
+        "sender": "Team Lead",
+        "event_type": "Slack / SMS",
+        "text": "Urgent: Please submit the quarterly project presentation review before midnight today without delay."
+      },
+      {
+        "id": "EV-502",
+        "step": 2,
+        "timestamp": "04:30 PM",
+        "sender": "Team Lead",
+        "event_type": "SMS",
+        "text": "Reminder: Immediate action required. The team needs to finalize slides before tomorrow morning's client briefing."
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-006",
+    "title": "Digital Arrest Law Enforcement Video Extortion",
+    "category": "Extortion & Authority Impersonation",
+    "description": "A high-severity 4-step extortion attack where the attacker impersonates customs and police officers, places the victim under fake 'digital arrest' on Skype, and demands a financial deposit.",
+    "events": [
+      {
+        "id": "EV-601",
+        "step": 1,
+        "timestamp": "11:00 AM",
+        "sender": "Customs Dept",
+        "event_type": "SMS",
+        "text": "Customs Department Notice: An international courier parcel containing illegal narcotics registered on your Aadhaar has been seized at Mumbai Airport."
+      },
+      {
+        "id": "EV-602",
+        "step": 2,
+        "timestamp": "11:05 AM",
+        "sender": "+91-9876543210 (CBI Officer)",
+        "event_type": "Phone Call",
+        "text": "I am Inspector Sharma from CBI Cyber Crime. A non-bailable arrest warrant has been issued against you under the NDPS Act."
+      },
+      {
+        "id": "EV-603",
+        "step": 3,
+        "timestamp": "11:10 AM",
+        "sender": "CBI Officer (WhatsApp)",
+        "event_type": "WhatsApp Video Call",
+        "text": "You are placed under digital arrest on Skype video call. Stay on video call and do not disconnect call under penalty of law."
+      },
+      {
+        "id": "EV-604",
+        "step": 4,
+        "timestamp": "11:20 AM",
+        "sender": "CBI Officer",
+        "event_type": "WhatsApp Message",
+        "text": "To prove financial innocence, transfer Rs 50,000 security clearance deposit immediately to rbi-verification@icici via UPI."
+      }
+    ]
+  },
+  {
+    "scenario_id": "SCN-MULTI-007",
+    "title": "Legitimate E-Commerce Delivery Handover (Benign)",
+    "category": "Benign Delivery Workflow",
+    "description": "A 3-step legitimate e-commerce delivery lifecycle showing how delivery PINs for physical handover are correctly kept at Low Risk.",
+    "events": [
+      {
+        "id": "EV-701",
+        "step": 1,
+        "timestamp": "08:00 AM",
+        "sender": "FLIPKT-OFFICIAL",
+        "event_type": "SMS",
+        "text": "Flipkart: Your order #OD9810283 for 'Running Shoes' has arrived at the local hub."
+      },
+      {
+        "id": "EV-702",
+        "step": 2,
+        "timestamp": "11:30 AM",
+        "sender": "FLIPKT-OFFICIAL",
+        "event_type": "SMS",
+        "text": "Flipkart: Your package is out for delivery today with partner Sunil (9876543210). Share delivery verification PIN 8492 with agent at the time of delivery."
+      },
+      {
+        "id": "EV-703",
+        "step": 3,
+        "timestamp": "12:15 PM",
+        "sender": "FLIPKT-OFFICIAL",
+        "event_type": "SMS",
+        "text": "Flipkart: Your order #OD9810283 has been delivered successfully. Thank you for shopping with us."
+      }
+    ]
+  }
+]
